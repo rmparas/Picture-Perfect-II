@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E92A668A1AC10D0400EA8ED7 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92A66891AC10D0400EA8ED7 /* RecordedAudio.swift */; };
 		E989B58F1AB652CB00FC9168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E989B58E1AB652CB00FC9168 /* AppDelegate.swift */; };
-		E989B5911AB652CB00FC9168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E989B5901AB652CB00FC9168 /* ViewController.swift */; };
+		E989B5911AB652CB00FC9168 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E989B5901AB652CB00FC9168 /* RecordSoundsViewController.swift */; };
 		E989B5941AB652CB00FC9168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E989B5921AB652CB00FC9168 /* Main.storyboard */; };
 		E989B5961AB652CB00FC9168 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E989B5951AB652CB00FC9168 /* Images.xcassets */; };
 		E989B5991AB652CB00FC9168 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E989B5971AB652CB00FC9168 /* LaunchScreen.xib */; };
 		E989B5A51AB652CB00FC9168 /* Picture_Perfect_IITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E989B5A41AB652CB00FC9168 /* Picture_Perfect_IITests.swift */; };
+		E989B5AF1AB91A6B00FC9168 /* PlaySoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E989B5AE1AB91A6B00FC9168 /* PlaySoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E92A66891AC10D0400EA8ED7 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 		E989B5891AB652CB00FC9168 /* Picture Perfect II.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Picture Perfect II.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E989B58D1AB652CB00FC9168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E989B58E1AB652CB00FC9168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E989B5901AB652CB00FC9168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E989B5901AB652CB00FC9168 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		E989B5931AB652CB00FC9168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E989B5951AB652CB00FC9168 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E989B5981AB652CB00FC9168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E989B59E1AB652CB00FC9168 /* Picture Perfect IITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Picture Perfect IITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E989B5A31AB652CB00FC9168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E989B5A41AB652CB00FC9168 /* Picture_Perfect_IITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture_Perfect_IITests.swift; sourceTree = "<group>"; };
+		E989B5AE1AB91A6B00FC9168 /* PlaySoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				E989B58E1AB652CB00FC9168 /* AppDelegate.swift */,
-				E989B5901AB652CB00FC9168 /* ViewController.swift */,
+				E989B5901AB652CB00FC9168 /* RecordSoundsViewController.swift */,
 				E989B5921AB652CB00FC9168 /* Main.storyboard */,
+				E92A66891AC10D0400EA8ED7 /* RecordedAudio.swift */,
+				E989B5AE1AB91A6B00FC9168 /* PlaySoundViewController.swift */,
 				E989B5951AB652CB00FC9168 /* Images.xcassets */,
 				E989B5971AB652CB00FC9168 /* LaunchScreen.xib */,
 				E989B58C1AB652CB00FC9168 /* Supporting Files */,
@@ -161,9 +167,11 @@
 				TargetAttributes = {
 					E989B5881AB652CB00FC9168 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = GWB7JT4BG6;
 					};
 					E989B59D1AB652CB00FC9168 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = GWB7JT4BG6;
 						TestTargetID = E989B5881AB652CB00FC9168;
 					};
 				};
@@ -212,7 +220,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E989B5911AB652CB00FC9168 /* ViewController.swift in Sources */,
+				E92A668A1AC10D0400EA8ED7 /* RecordedAudio.swift in Sources */,
+				E989B5911AB652CB00FC9168 /* RecordSoundsViewController.swift in Sources */,
+				E989B5AF1AB91A6B00FC9168 /* PlaySoundViewController.swift in Sources */,
 				E989B58F1AB652CB00FC9168 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +366,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -367,6 +379,7 @@
 				INFOPLIST_FILE = "Picture Perfect IITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picture Perfect II.app/Picture Perfect II";
 			};
 			name = Debug;
@@ -375,6 +388,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -382,6 +397,7 @@
 				INFOPLIST_FILE = "Picture Perfect IITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picture Perfect II.app/Picture Perfect II";
 			};
 			name = Release;
@@ -405,6 +421,7 @@
 				E989B5AA1AB652CB00FC9168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E989B5AB1AB652CB00FC9168 /* Build configuration list for PBXNativeTarget "Picture Perfect IITests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +430,7 @@
 				E989B5AD1AB652CB00FC9168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
