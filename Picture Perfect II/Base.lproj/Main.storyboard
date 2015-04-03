@@ -24,7 +24,7 @@
                                 <color key="textColor" red="0.24492992790000001" green="0.23434444679999999" blue="0.68686868690000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="161" y="487" width="79" height="21"/>
+                                    <rect key="frame" x="161" y="488" width="79" height="21"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LhP-ap-AIn">
@@ -54,7 +54,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="171" y="545" width="50" height="50"/>
+                                    <rect key="frame" x="175" y="545" width="50" height="50"/>
                                 </variation>
                                 <connections>
                                     <action selector="stopAudionButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zcV-bQ-AeM"/>
@@ -66,13 +66,13 @@
                             <constraint firstItem="nUR-cV-tU4" firstAttribute="top" secondItem="lhl-kU-udD" secondAttribute="bottom" constant="40" id="2mt-rF-Yzc"/>
                             <constraint firstItem="bEt-wi-0LI" firstAttribute="top" secondItem="LhP-ap-AIn" secondAttribute="bottom" constant="5" id="41B-my-Dyc"/>
                             <constraint firstAttribute="centerX" secondItem="LhP-ap-AIn" secondAttribute="centerX" id="53m-5O-OQ1"/>
-                            <constraint firstItem="nUR-cV-tU4" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="120" id="CLl-Ak-u1c"/>
+                            <constraint firstItem="nUR-cV-tU4" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="145" id="CLl-Ak-u1c"/>
                             <constraint firstItem="sLg-WA-bVZ" firstAttribute="top" secondItem="nUR-cV-tU4" secondAttribute="bottom" constant="5" id="OIn-uW-zsl"/>
-                            <constraint firstItem="lhl-kU-udD" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="105" id="Tdq-lk-kwm"/>
+                            <constraint firstItem="lhl-kU-udD" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="130" id="Tdq-lk-kwm"/>
                             <constraint firstAttribute="centerY" secondItem="LhP-ap-AIn" secondAttribute="centerY" id="jfm-T0-psY"/>
                             <constraint firstItem="lhl-kU-udD" firstAttribute="top" secondItem="LhP-ap-AIn" secondAttribute="bottom" constant="5" id="psA-sl-DvC"/>
-                            <constraint firstItem="sLg-WA-bVZ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="80" id="ugY-Ek-6bh"/>
-                            <constraint firstItem="bEt-wi-0LI" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="70" id="wxw-UX-LjL"/>
+                            <constraint firstItem="sLg-WA-bVZ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="110" id="ugY-Ek-6bh"/>
+                            <constraint firstItem="bEt-wi-0LI" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="95" id="wxw-UX-LjL"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -180,6 +180,9 @@
                                 <state key="normal" image="StopButton">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="157" y="650" width="50" height="50"/>
+                                </variation>
                                 <connections>
                                     <action selector="stopPlayback:" destination="Bks-3m-4cK" eventType="touchUpInside" id="kq2-B5-fYh"/>
                                 </connections>
@@ -191,10 +194,10 @@
                             <constraint firstItem="Mx3-FR-tXt" firstAttribute="top" secondItem="7Wi-8C-M8Z" secondAttribute="bottom" constant="45" id="Ac3-vc-HvY"/>
                             <constraint firstItem="3MK-J9-MMJ" firstAttribute="top" secondItem="deo-od-KmB" secondAttribute="bottom" constant="5" id="E1B-Ta-uoS"/>
                             <constraint firstItem="4pM-5E-eGG" firstAttribute="leading" secondItem="L12-fZ-IaY" secondAttribute="leadingMargin" constant="21" id="Gj6-8c-98d"/>
-                            <constraint firstItem="3MK-J9-MMJ" firstAttribute="leading" secondItem="L12-fZ-IaY" secondAttribute="leadingMargin" constant="25" id="L1Q-Lx-IMX"/>
+                            <constraint firstItem="3MK-J9-MMJ" firstAttribute="leading" secondItem="L12-fZ-IaY" secondAttribute="leadingMargin" constant="50" id="L1Q-Lx-IMX"/>
                             <constraint firstItem="ZBe-At-kny" firstAttribute="leading" secondItem="L12-fZ-IaY" secondAttribute="leadingMargin" constant="21" id="aDF-mA-GtU"/>
                             <constraint firstItem="4pM-5E-eGG" firstAttribute="top" secondItem="ZBe-At-kny" secondAttribute="bottom" constant="45" id="b0M-MO-SaF"/>
-                            <constraint firstItem="sH5-Fe-mO5" firstAttribute="leading" secondItem="L12-fZ-IaY" secondAttribute="leadingMargin" constant="115" id="bmh-UK-Sc8"/>
+                            <constraint firstItem="sH5-Fe-mO5" firstAttribute="leading" secondItem="L12-fZ-IaY" secondAttribute="leadingMargin" constant="140" id="bmh-UK-Sc8"/>
                             <constraint firstItem="ZBe-At-kny" firstAttribute="top" secondItem="deo-od-KmB" secondAttribute="bottom" constant="50" id="jtc-p7-ePU"/>
                             <constraint firstItem="7Wi-8C-M8Z" firstAttribute="top" secondItem="deo-od-KmB" secondAttribute="bottom" constant="50" id="nfG-n5-UaT"/>
                             <constraint firstItem="HwU-cn-xco" firstAttribute="top" secondItem="sH5-Fe-mO5" secondAttribute="bottom" constant="100" id="pfs-EX-rv9"/>

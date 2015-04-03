@@ -70,7 +70,7 @@ class PlaySoundViewController: UIViewController {
     
     @IBAction func playDarthVaderAudio(sender: UIButton) {
     
-        playAudioWithVariablePitch(-1000)
+        playAudioWithVariablePitch(-800)
     }
  
     

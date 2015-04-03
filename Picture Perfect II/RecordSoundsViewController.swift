@@ -67,7 +67,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         println(filePath)
         
         var session = AVAudioSession.sharedInstance()
-        session.setCategory(AVAudioSessionCategoryPlayAndRecord, error: nil)
+        session.setCategory(AVAudioSessionCategoryRecord, error: nil)
         
         audioRecorder = AVAudioRecorder(URL: filePath, settings: nil, error: nil)
         audioRecorder.delegate = self
@@ -79,6 +79,9 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     func audioRecorderDidFinishRecording(recorder: AVAudioRecorder!, successfully flag: Bool) {
     
         if (flag) {
+            
+            var session = AVAudioSession.sharedInstance()
+            session.setCategory(AVAudioSessionCategoryPlayback, error: nil)
             
             let recordedAudio = RecordedAudio(filePathUrl: recorder.url, title: recorder.url.lastPathComponent!)
         
