@@ -180,9 +180,6 @@
                                 <state key="normal" image="StopButton">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="157" y="650" width="50" height="50"/>
-                                </variation>
                                 <connections>
                                     <action selector="stopPlayback:" destination="Bks-3m-4cK" eventType="touchUpInside" id="kq2-B5-fYh"/>
                                 </connections>
