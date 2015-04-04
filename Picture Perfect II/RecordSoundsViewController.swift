@@ -54,7 +54,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         stopRecordingLabel.hidden = false;
         recordingLabel.hidden = false;
         startRecordingLabel.hidden = true;
-        
+        //just adding a test comment for GIT hub training
         
         let dirPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as String
         
